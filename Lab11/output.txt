@@ -1,0 +1,17 @@
+AND Function Predictions:
+[[0]
+ [0]
+ [0]
+ [1]]
+
+OR Function Predictions:
+[[0]
+ [1]
+ [1]
+ [1]]
+
+AND Function Prediction for input [1, 1]:
+[[1]]
+
+OR Function Prediction for input [0, 1]:
+[[1]]

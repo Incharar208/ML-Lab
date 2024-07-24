@@ -1,0 +1,1 @@
+This repositoery contains all the programs prescribed as a part of curriculum in the sixth semester.

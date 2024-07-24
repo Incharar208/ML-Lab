@@ -1,0 +1,2 @@
+The optimal value is: 12
+The path taken is: [0, 1, 2, 4]

@@ -1,0 +1,44 @@
+lege Lab ML Final/Lab6/main.py"
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 214 entries, 0 to 213
+Data columns (total 10 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   RI      214 non-null    float64
+ 1   Na      214 non-null    float64
+ 2   Mg      214 non-null    float64
+ 3   Al      214 non-null    float64
+ 4   Si      214 non-null    float64
+ 5   K       214 non-null    float64
+ 6   Ca      214 non-null    float64
+ 7   Ba      214 non-null    float64
+ 8   Fe      214 non-null    float64
+ 9   Type    214 non-null    int64  
+dtypes: float64(9), int64(1)
+memory usage: 16.8 KB
+None
+               RI          Na          Mg  ...          Ba          Fe        Type
+count  214.000000  214.000000  214.000000  ...  214.000000  214.000000  214.000000
+mean     1.518365   13.407850    2.684533  ...    0.175047    0.057009    2.780374
+std      0.003037    0.816604    1.442408  ...    0.497219    0.097439    2.103739
+min      1.511150   10.730000    0.000000  ...    0.000000    0.000000    1.000000
+25%      1.516522   12.907500    2.115000  ...    0.000000    0.000000    1.000000
+50%      1.517680   13.300000    3.480000  ...    0.000000    0.000000    2.000000
+75%      1.519157   13.825000    3.600000  ...    0.000000    0.100000    3.000000
+max      1.533930   17.380000    4.490000  ...    3.150000    0.510000    7.000000
+
+[8 rows x 10 columns]
+Missing values:
+ RI      0
+Na      0
+Mg      0
+Al      0
+Si      0
+K       0
+Ca      0
+Ba      0
+Fe      0
+Type    0
+dtype: int64
+Accuracy with euclidean distance:  0.6615384615384615
+Accuracy with manhattan distance:  0.6923076923076923
